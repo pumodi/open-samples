@@ -22,13 +22,17 @@ Each sample is provided as single note samples, multiple note multisamples in a 
 * Added Antique Zither
 
 ### v1.02 12/01/2021
+<<<<<<< HEAD
 * Added cymbal swells courtesy of Midee (Jason Zaffrey)!
 * Added guiitar pick slides, also courtesy of Midee :3
+=======
+* Added cymbal swells courtesy of Midee (Jason Zaffary)!
+>>>>>>> cd3b0759ed34d01d30bdcaf8fbee66a8b740d960
 
 ## Special Thanks
 I would like to thank Jordan Laurent, Jay “Dalton” Battin, Joel Bocek, Lisa Bennett, Alessandra Genovese, and Michael Romay for helping with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible.
 
-Thanks to Jason Zaffrey for his cymbal swells!
+Thanks to Jason Zaffary for his cymbal swells!
 
 ## LEGAL
 
