@@ -16,6 +16,8 @@ I hope you enjoy using Antique Zither!
 
 <3 Jeff (Pumodi)
 
+![Zither Image](img/20190924_115151.jpg)
+
 ## Changelist
 
 v0.1
