@@ -22,7 +22,6 @@ Each sample is provided as single note samples, multiple note multisamples in a 
 * Added Antique Zither
 
 ### v1.02 12/01/2021
-<<<<<<< HEAD
 * Added cymbal swells courtesy of Midee (Jason Zaffary)!
 * Added guitar pick slides, also courtesy of Midee :3
 
