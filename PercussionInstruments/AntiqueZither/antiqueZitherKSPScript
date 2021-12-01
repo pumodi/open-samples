@@ -1,0 +1,224 @@
+on init
+
+{Start of GUI Generator on init definitions}
+    set_control_par_str($INST_ICON_ID,$CONTROL_PAR_PICTURE,"filename")
+    set_ui_height_px(300)
+    make_perfview
+    message("")
+    declare $count := 0
+{End of GUI Generator on init definitions}
+
+{declarations}
+declare $keycount
+declare ui_knob $Knob_1 (0,1000000,1)
+declare ui_knob $Knob_2 (0,1000000,10)
+declare ui_menu $articulation
+declare ui_label $articulation_label (1,1)
+declare ui_knob $reverb (0,1000000,1)
+declare $grp_idx
+declare $env_idx
+declare ui_knob $attack (0,1000000,1)
+declare ui_knob $release(0,1000000,1)
+
+{text setting & units}
+set_text($Knob_1,"Piezo")
+set_knob_unit($Knob_1,$KNOB_UNIT_DB)
+set_text($Knob_2,"Stereo")
+set_knob_unit($Knob_2,$KNOB_UNIT_DB)
+set_text ($articulation_label,"Articulation")
+add_menu_item ($articulation, "Pluck (Tuned)",0)
+add_menu_item ($articulation, "Pluck (Untuned)",2)
+add_menu_item ($articulation, "Knocks & FX",1)
+add_menu_item ($articulation, "Glissandos & Scrapes",3)
+add_menu_item ($articulation, "Drunken Mbira",4)
+set_text ($reverb,"Reverb")
+set_knob_unit($reverb,$KNOB_UNIT_DB)
+set_knob_unit ($attack, $KNOB_UNIT_MS)
+set_knob_unit ($release, $KNOB_UNIT_MS)
+
+{organize the ui}
+move_control ($Knob_1, 1,2)
+move_control ($Knob_2, 2,2)
+move_control ($articulation, 4,3)
+move_control ($articulation_label, 4,2)
+move_control ($reverb,4,5)
+move_control ($attack,1,5)
+move_control ($release,2,5)
+
+$attack :=get_engine_par($ENGINE_PAR_ATTACK,0, find_mod(0,"volenv"),-1)
+$release :=get_engine_par($ENGINE_PAR_RELEASE,0, find_mod(0,"volenv"),-1)
+$reverb := _get_engine_par ($ENGINE_PAR_SEND_EFFECT_OUTPUT_GAIN,-1,0,-1)
+
+
+{make knobs persist}
+make_persistent($attack)
+make_persistent($release)
+make_persistent($Knob_1)
+make_persistent($Knob_2)
+make_persistent($reverb)
+
+read_persistent_var($attack)
+read_persistent_var($release)
+read_persistent_var($reverb)
+
+set_knob_label($attack,get_engine_par_disp($ENGINE_PAR_ATTACK,0, find_mod(0,"volenv"),-1))
+set_knob_label($release,get_engine_par_disp($ENGINE_PAR_RELEASE,0, find_mod(0,"volenv"),-1))
+set_knob_label($reverb,_get_engine_par_disp($ENGINE_PAR_SEND_EFFECT_OUTPUT_GAIN,-1,0,-1))
+
+message("")
+
+end on
+
+{control piezo volume}
+on ui_control($Knob_1)
+	set_engine_par($ENGINE_PAR_VOLUME, $Knob_1,3,-1,-1)
+  set_engine_par($ENGINE_PAR_VOLUME, $Knob_1,4,-1,-1)
+  set_engine_par($ENGINE_PAR_VOLUME, $Knob_1,5,-1,-1)
+  set_engine_par($ENGINE_PAR_VOLUME, $Knob_1,6,-1,-1)
+  set_engine_par($ENGINE_PAR_VOLUME, $Knob_1,10,-1,-1)
+
+	$Knob_1 := _get_engine_par ($ENGINE_PAR_VOLUME,5,-1,-1)
+	set_knob_label($Knob_1,_get_engine_par_disp($ENGINE_PAR_VOLUME,5,-1,-1))
+end on
+
+{control stereo mic volume}
+on ui_control($Knob_2)
+	  set_engine_par($ENGINE_PAR_VOLUME, $Knob_2,0,-1,-1)
+	  set_engine_par($ENGINE_PAR_VOLUME, $Knob_2,1,-1,-1)
+	  set_engine_par($ENGINE_PAR_VOLUME, $Knob_2,2,-1,-1)
+  	set_engine_par($ENGINE_PAR_VOLUME, $Knob_2,7,-1,-1)
+  	set_engine_par($ENGINE_PAR_VOLUME, $Knob_2,8,-1,-1)
+ 	  set_engine_par($ENGINE_PAR_VOLUME, $Knob_2,9,-1,-1)
+  	set_engine_par($ENGINE_PAR_VOLUME, $Knob_2,11,-1,-1)
+
+  	$Knob_2 := _get_engine_par ($ENGINE_PAR_VOLUME,7,-1,-1)
+	  set_knob_label($Knob_2,_get_engine_par_disp($ENGINE_PAR_VOLUME,7,-1,-1))
+end on
+
+{control reverb return}
+on ui_control ($reverb)
+	set_engine_par($ENGINE_PAR_SEND_EFFECT_OUTPUT_GAIN,$reverb,-1,0,-1)
+	set_knob_label($reverb,_get_engine_par_disp($ENGINE_PAR_SEND_EFFECT_OUTPUT_GAIN,-1,0,-1))
+end on
+
+{control attack time}
+on ui_control ($attack)
+  $count := 0
+  while ($count < $NUM_GROUPS)
+    $env_idx :=find_mod($grp_idx,"volenv")
+		set_engine_par($ENGINE_PAR_ATTACK,$attack,$count,find_mod(0,"volenv"),-1)
+    inc ($count)
+  end while
+  set_knob_label($attack,_get_engine_par_disp($ENGINE_PAR_ATTACK,0,0,-1))
+end on
+
+{control release time}
+on ui_control ($release)
+  $count := 0
+  while ($count < $NUM_GROUPS)
+		set_engine_par($ENGINE_PAR_RELEASE,$release,$count,find_mod(0,"volenv"),-1)
+    inc($count)
+  end while
+	set_knob_label($release,_get_engine_par_disp($ENGINE_PAR_RELEASE,$grp_idx,$env_idx,-1))
+end on
+
+{switch banks}
+on note
+	select ($articulation)
+		case 0
+			$keycount := 0
+			disallow_group($ALL_GROUPS)
+			allow_group(5)
+			allow_group(7)
+			allow_group(8)
+			allow_group(9)
+			while ($keycount <128)
+				if ($keycount < 85 and $keycount > 21)
+					set_key_color($keycount,$KEY_COLOR_PURPLE)
+				end if
+        if ($keycount >84 or $keycount < 22)
+          set_key_color($keycount,$KEY_COLOR_INACTIVE)
+        end if
+				inc($keycount)
+			end while
+		case 1
+			disallow_group($ALL_GROUPS)
+			allow_group(2)
+			allow_group(6)
+			$keycount := 0
+			while ($keycount <128)
+				if ($keycount < 56 or $keycount > 72)
+					set_key_color($keycount,$KEY_COLOR_INACTIVE)
+				end if
+					if ($keycount > 55 and $keycount < 73)
+					set_key_color($keycount,$KEY_COLOR_YELLOW)
+				end if
+				inc($keycount)
+			end while
+		case 2
+			disallow_group($ALL_GROUPS)
+			allow_group(0)
+			allow_group(3)
+			$keycount := 0
+			while ($keycount <128)
+				if ($keycount < 24)
+					set_key_color($keycount,$KEY_COLOR_INACTIVE)
+				end if
+				if ($keycount > 55 and $keycount < 78)
+					set_key_color($keycount,$KEY_COLOR_BLUE)
+				end if
+				if ($keycount < 56 and $keycount >23)
+					set_key_color($keycount,$KEY_COLOR_RED)
+				end if
+				if ($keycount >77)
+					set_key_color($keycount,$KEY_COLOR_YELLOW)
+				end if
+				inc($keycount)
+			end while
+		case 3
+			disallow_group($ALL_GROUPS)
+			allow_group(1)
+			allow_group(4)
+			$keycount := 0
+			while ($keycount <128)
+				if ($keycount < 53 or $keycount > 74)
+					set_key_color($keycount,$KEY_COLOR_INACTIVE)
+				end if
+				if ($keycount > 52 and $keycount < 75)
+					set_key_color($keycount,$KEY_COLOR_ORANGE)
+				end if
+
+				inc($keycount)
+			end while
+		case 4
+			disallow_group($ALL_GROUPS)
+			allow_group(10)
+			allow_group(11)
+			$keycount := 0
+			while ($keycount <128)
+				set_key_color($keycount,$KEY_COLOR_BLACK)
+				inc($keycount)
+			end while
+	end select
+end on
+
+{update knobs}
+on ui_update
+	$Knob_1 := _get_engine_par ($ENGINE_PAR_VOLUME,5,-1,-1)
+	set_knob_label($Knob_1,_get_engine_par_disp...
+	($ENGINE_PAR_VOLUME,5,-1,-1))
+
+    $Knob_2 := _get_engine_par ($ENGINE_PAR_VOLUME,7,-1,-1)
+	set_knob_label($Knob_2,_get_engine_par_disp...
+	($ENGINE_PAR_VOLUME,7,-1,-1))
+
+	$reverb := _get_engine_par ($ENGINE_PAR_SEND_EFFECT_OUTPUT_GAIN,-1,0,-1)
+	set_knob_label($reverb,_get_engine_par_disp...
+	($ENGINE_PAR_SEND_EFFECT_OUTPUT_GAIN,-1,0,-1))
+
+  $attack :=get_engine_par($ENGINE_PAR_ATTACK,$grp_idx, $env_idx,-1)
+  $release :=get_engine_par($ENGINE_PAR_RELEASE,$grp_idx, $env_idx,-1)
+
+  set_knob_label($attack,get_engine_par_disp($ENGINE_PAR_ATTACK,$grp_idx, $env_idx,-1))
+  set_knob_label($release,get_engine_par_disp($ENGINE_PAR_RELEASE,$grp_idx, $env_idx,-1))
+end on

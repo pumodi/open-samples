@@ -19,6 +19,7 @@ Kawaii K1
 
 v1.01 12/01/2021
 Added Cuica and Musical Saw
+Added Antique Zither
 
 ### Special Thanks
 I would like to thank Jordan Laurent, Jay “Dalton” Battin, Joel Bocek, Lisa Bennett, Alessandra Genovese, and Michael Romay for helping with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible.
