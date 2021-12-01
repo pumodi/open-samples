@@ -22,12 +22,12 @@ Each sample is provided as single note samples, multiple note multisamples in a 
 * Added Antique Zither
 
 ### v1.02 12/01/2021
-* Added cymbal swells courtesy of Midee (Jason Zaffrey)!
+* Added cymbal swells courtesy of Midee (Jason Zaffary)!
 
 ## Special Thanks
 I would like to thank Jordan Laurent, Jay “Dalton” Battin, Joel Bocek, Lisa Bennett, Alessandra Genovese, and Michael Romay for helping with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible.
 
-Thanks to Jason Zaffrey for his cymbal swells!
+Thanks to Jason Zaffary for his cymbal swells!
 
 ## LEGAL
 
