@@ -23,6 +23,7 @@ Each sample is provided as single note samples, multiple note multisamples in a 
 
 ### v1.02 12/01/2021
 * Added cymbal swells courtesy of Midee (Jason Zaffrey)!
+* Added guiitar pick slides, also courtesy of Midee :3
 
 ## Special Thanks
 I would like to thank Jordan Laurent, Jay “Dalton” Battin, Joel Bocek, Lisa Bennett, Alessandra Genovese, and Michael Romay for helping with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible.
