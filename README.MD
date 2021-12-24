@@ -41,6 +41,10 @@ Some requirements:
 * Addded Jackson Harris' (Xykrotik) Ukelele with a demo mp3 by Pumodi
 * Added some one shot samples (EDM Whoop and DrBeat Metronome CLick)
 
+### v1.04 12/24/2021
+* Merry Christmas!
+* Uploaded Hard Drive music box with Demo by Pumodi.
+
 ## Special Thanks
 I would like to thank Jordan Laurent, Jay “Dalton” Battin, Joel Bocek, Lisa Bennett, Alessandra Genovese, and Michael Romay for helping with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible.
 
