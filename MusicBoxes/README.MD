@@ -2,7 +2,7 @@
 
 Back in college I picked up a paper tape fed music box for a student film score that needed a lullaby. Years later I haven't used it much as it's time consuming to punch the paper and is, frankly, not very environmentally friendly way to go about it.
 
-![Hard Drive Music Box](/img/MusicBox_01.jpg)
+![Hard Drive Music Box](img/hd_musicBox_01.jpg)
 
 ## Specs
 
