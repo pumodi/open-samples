@@ -45,10 +45,22 @@ Some requirements:
 * Merry Christmas!
 * Uploaded Hard Drive music box with Demo by Pumodi.
 
-## Special Thanks
-I would like to thank Jordan Laurent, Jay “Dalton” Battin, Joel Bocek, Lisa Bennett, Alessandra Genovese, and Michael Romay for helping with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible.
+## Contributors & Special Thanks
+* Social Media Preview Artwork - Jamphibious
 
-Thanks to Jason Zaffary for his cymbal swells!
+### PCC Recording Engineers
+I would like to thank the following recording engineers:
+
+* Jordan Laurent
+* Jay “Dalton” Battin
+* Joel Bocek, Lisa Bennett
+* Alessandra Genovese
+* and Michael Romay 
+
+For their help with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible. They were the original samplists and recorded the source wavs of the X5DR, M1, K1R, and the JV2080. 
+
+### Sample Contributors
+* Jason Zaffary - Cymbal Swells
 
 ## LEGAL
 
