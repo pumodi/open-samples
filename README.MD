@@ -9,13 +9,21 @@ Also! If you download this and feel like making a demo song for one of the libs 
 ## Contents of the Pack
 Each sample is provided as single note samples, multiple note multisamples in a single file, or chromatic samples where appropriate (such as drum sets). This should make it easy to implement into the sampler of your choice. Not all patches have been multisampled as the process was mostly automated.
 
+## Downloading the Pack
+
+There are two methods to download Open Samples:
+  * Visit this link on Dropbox: https://www.dropbox.com/sh/bojkb9vs520mjz9/AADOb5dCnIaJWxv5smXo8YRka?dl=0
+  * Clone the Repo
+
+We experimented with doing releases on Github but the site will not allow large files to be included (anything in LFS which means all of our wavs). We recommend not downloading the repo as a zip, either, as the same issue is present. The only way to get all the wavs from GH is by cloning.
+
 ## Contributing
 
 Anyone is welcome to contribute samples to this pack. Simnply fork the repo, add your samples, and submit a pull request. Pull requests will be reviewed as they are received.
 Alternatively, email Pumodi with what you'd like to include and he can sort out uploading for you.
 
 Some requirements:
-* Samples must either be .wav (minimum of 16-bit, 44.1khz but ideally 24-bit/48khz).
+* Samples must be .wav (minimum of 16-bit, 44.1khz but ideally 24-bit/48khz).
 * If submitting a Kontakt instrument, ncw or monolith nki's would be fine. Please no nicnt libs.
 * Other formats are allowed but must be reviewed by repo admin before merging.
 * Demos should be limited to mp3 or ogg file format. Please no flac or wav as we need to manage repo size.
@@ -55,9 +63,9 @@ I would like to thank the following recording engineers:
 * Jay “Dalton” Battin
 * Joel Bocek, Lisa Bennett
 * Alessandra Genovese
-* and Michael Romay 
+* and Michael Romay
 
-For their help with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible. They were the original samplists and recorded the source wavs of the X5DR, M1, K1R, and the JV2080. 
+For their help with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible. They were the original samplists and recorded the source wavs of the X5DR, M1, K1R, and the JV2080.
 
 ### Sample Contributors
 * Jason Zaffary - Cymbal Swells
