@@ -12,10 +12,10 @@ Each sample is provided as single note samples, multiple note multisamples in a 
 ## Downloading the Pack
 
 There are two methods to download Open Samples:
-  * Visit this link on Dropbox: https://www.dropbox.com/sh/bojkb9vs520mjz9/AADOb5dCnIaJWxv5smXo8YRka?dl=0
+  * Visit this link on Dropbox - https://www.dropbox.com/sh/ap4na48qx1w5mbg/AADaLCRcWaJ40I1VsePlqzd9a?dl=0 
   * Clone the Repo
 
-We experimented with doing releases on Github but the site will not allow large files to be included (anything in LFS which means all of our wavs). We recommend not downloading the repo as a zip, either, as the same issue is present. The only way to get all the wavs from GH is by cloning.
+We experimented with doing releases on Github but the site will not allow large files to be included (anything in LFS which means all of our wavs). We recommend not downloading the repo as a zip, either, as the same issue is present. The best way to get them off GH is by cloning. Github does support including LFS objects in Archives but it incurs additional costs on my behalf to host them. $5 per 50gb of storage and 50gb of Bandwidth, which is pretty low. Hosting on dropbox makes the most sense for this as there is no increase in price for storage or bandwidth.
 
 ## Contributing
 
