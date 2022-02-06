@@ -2,3 +2,6 @@
 ###################
 *.DS_Store
 *.ds_store
+
+# Management Scripts #
+dropbox-merge.bat
