@@ -6,13 +6,33 @@ As the years go by this sample pack will increase in size all the while remainin
 
 Also! If you download this and feel like making a demo song for one of the libs I would love to include some here so people unfamiliar with the instruments can get a sense for how they sound. Hit me up if you are interested.
 
+## Upcoming Sample Projects
+
+* Concert Percussion Library
+* Expand Solo Marching Percussion to include Bass and Cymbals
+* Roland SC-88
+* Roland MKS-50 (Alpha Juno)
+* Roland Super JX MKS-70
+** Also on the lookout for patch designers for the MKS'!
+* Korg M1R
+* Korg Wavestation A/D
+* Korg U-220 and some sample cards
+* Kurzweill 1000PX
+* Proteus 1XR and Proteus 3
+* Yamaha DX7S
+* Yamaha TX816 (4 channel)
+* Ensoniq Mirage
+* Commodore 64
+* Gameboy (DMG)
+* Gretsch Drumset
+
 ## Contents of the Pack
 Each sample is provided as single note samples, multiple note multisamples in a single file, or chromatic samples where appropriate (such as drum sets). This should make it easy to implement into the sampler of your choice. Not all patches have been multisampled as the process was mostly automated.
 
 ## Downloading the Pack
 
 There are two methods to download Open Samples:
-  * Visit this link on Dropbox - https://www.dropbox.com/sh/ap4na48qx1w5mbg/AADaLCRcWaJ40I1VsePlqzd9a?dl=0 
+  * Visit this link on Dropbox - https://www.dropbox.com/sh/ap4na48qx1w5mbg/AADaLCRcWaJ40I1VsePlqzd9a?dl=0
   * Clone the Repo
 
 We experimented with doing releases on Github but the site will not allow large files to be included (anything in LFS which means all of our wavs). We recommend not downloading the repo as a zip, either, as the same issue is present. The best way to get them off GH is by cloning. Github does support including LFS objects in Archives but it incurs additional costs on my behalf to host them. $5 per 50gb of storage and 50gb of Bandwidth, which is pretty low. Hosting on dropbox makes the most sense for this as there is no increase in price for storage or bandwidth.
