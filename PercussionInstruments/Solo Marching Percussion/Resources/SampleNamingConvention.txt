@@ -1,0 +1,15 @@
+|| Snare ||
+
+Solo_<instName>_<MidiNote>_<MicPos><RR#>_<MidiMinVel>_<MidiVelMax>.wav
+MidiNote - Keyboard Position
+MicPos+RR$ - Group Name
+MidiVelMin + MidiVelMax -Auto Map dynamic range
+
+
+|| Tenor ||
+Tenors naming convention was crafted after Snare as a number of lessons on naming in Reaper and post-processing were discovered.
+
+<instName>_Solo_<MidiNote>_<articulation>_<MidiMinVel>_<MidiVelMax>_<MicPos><RR#>.wav
+MidiNote - Keyboard Position
+MicPos+RR$ - Group Name
+MidiVelMin + MidiVelMax - Auto Map dynamic range
