@@ -1,6 +1,6 @@
 # Gretsch Catalina Maple
 
-![GretschCatalinaMapleDrumset](Resources/adImage.jpg)
+![GretschCatalinaMapleDrumset](img/adImage.jpg)
 
 5 Piece Drumset
 * Snare
