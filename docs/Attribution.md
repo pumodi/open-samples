@@ -3,9 +3,9 @@
 * Jackson Harris - Chief Samplist & Maintainer
 
 ## Sample Contributors
-Jason Zaffary
-Jackson 'Xykrotik' Harris
-Jeffrey Brice
+* Jason Zaffary
+* Jackson 'Xykrotik' Harris
+* Jeffrey Brice
 
 ## Art Contributors
 * Jamphibious - Banner Image & Social Media Preview Image
