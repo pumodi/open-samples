@@ -1,5 +1,9 @@
 # Open Samples
 
+[![Generic badge](https://img.shields.io/badge/Patch%20Number-v1.05-blueviolet)](https://shields.io/)
+[![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+
 The Pumodi Sample Library started as a collection of samples from various hardware synthesizers of the 90's and late 80’s. Many of these sounds come from romplers or various wavetable rack mount synthesizers. These samples were created and provided free of charge to PCC students as a start to their own sample banks. As of 2022, we are reconfiguring it and releasing it as Open Samples, an open source sampling initiative.
 
 As the years go by this sample pack will increase in size all the while remaining free or donation based. Open Samples, as an organization, will be sampling and releasing packs on our own as time permits. But the project itself is open for contribution if you have something you'd like to sample!
@@ -27,9 +31,9 @@ Sound Packs/Sample Packs - Refers to indiviual instruments or groups of instrume
 
 # Downloading the Pack
 
-To download the entire library, please visit this link on Dropbox - https://www.dropbox.com/sh/ap4na48qx1w5mbg/AADaLCRcWaJ40I1VsePlqzd9a?dl=0
+To download the entire library in it's current release form, please visit this link on Dropbox - https://www.dropbox.com/sh/ap4na48qx1w5mbg/AADaLCRcWaJ40I1VsePlqzd9a?dl=0
 
-We experimented with doing releases on Github but the cost for the development cost is too much for an open source and free distribution model. You can technically clone the repository to get bleeding edge versions of the files but please refrain from doing so unless you are contributing to the library in some way. If you do decide to clone, please consider doing a shallow clone so as not to overuse our bandwidth. I would recommend this command:
+We experimented with doing releases on Github but the cost for the development cost is too much for an open source and free distribution model. You can, however, clone the repository to get bleeding edge versions of the files. If you do decide to clone, please consider doing a shallow clone as a full clone takes quite some time. I would recommend this command:
 
 ```git clone --depth 1 https://github.com/pumodi/open-samples.git```
 
