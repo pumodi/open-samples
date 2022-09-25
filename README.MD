@@ -118,7 +118,7 @@ I would like to thank the following recording engineers:
 
 For their help with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible. They were the original samplists and recorded the source wavs of the X5DR, M1, K1R, and the JV2080.
 
-For a full list of credits, [please vist the credits doc here.](/diocs/Attribution.md)
+For a full list of credits, [please vist the credits doc here.](/docs/Attribution.md)
 
 # LEGAL
 
