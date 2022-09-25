@@ -7,6 +7,11 @@
 * Jackson 'Xykrotik' Harris
 * Jeffrey Brice
 
+## Music Demo Contributors
+* krzyis
+* Tony Dickinson
+* Pumodi
+
 ## Art Contributors
 * Jamphibious - Banner Image & Social Media Preview Image
 
