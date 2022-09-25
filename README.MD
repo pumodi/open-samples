@@ -16,7 +16,7 @@ Also! If you download this and feel like making a demo song for one of the sound
   * [Ways to Contribute](#ways-to-contribute)
   * [Some quick sample requirements](#some-quick-sample-requirements)
 - [Upcoming Sample Projects](#upcoming-sample-projects)
-- [Instruments Sampled/Changelog](#instruments-sampled-and-changelog)
+- [Latest Update](#latest-update)
 - [Contributors & Special Thanks](#contributors-and-special-thanks)
 - [LEGAL](#legal)
 
@@ -91,32 +91,15 @@ Alternatively, email Pumodi with what you'd like to include and he can sort out 
 | Harmonica                        | Sampled             |                | Jackson Harris      |
 | BambooXylophone                  | Sampled             |                | Jackson Harris      |
 
-# Instruments Sampled and Changelog
+# Latest Update
 
-### v1.0 11/15/2017
-* Roland JV 2080
-* Korg X5
-* Korg M1
-* Kawaii K1
+### v1.06
+* Reorganized folder structures for a number of packs.
+* Added demo song for the X5DR ("Gemination") created by Tony Dickinson
+* Added demo song for the Hard Drive Music Box ("Memory Box") created by krzyis
 
-### v1.01 12/01/2021
-* Added Cuica and Musical Saw
-* Added Antique Zither
+For the full changelog, [please go here](/docs/Changelog.md)
 
-### v1.02 12/01/2021
-* Added cymbal swells courtesy of Midee (Jason Zaffary)!
-* Added guitar pick slides, also courtesy of Midee :3
-
-### v1.03 12/02/2021
-* Addded Jackson Harris' (Xykrotik) Ukelele with a demo mp3 by Pumodi
-* Added some one shot samples (EDM Whoop and DrBeat Metronome CLick)
-
-### v1.04 12/24/2021
-* Merry Christmas!
-* Uploaded Hard Drive music box with Demo by Pumodi.
-
-### v1.05 07/27/2022
-* Added Gretsch Catalina Maple drumset with Zildjian cymbals, sampled by Pumodi.
 
 ## Contributors and Special Thanks
 * Social Media Preview Artwork - Jamphibious
@@ -134,6 +117,8 @@ I would like to thank the following recording engineers:
 * and Michael Romay
 
 For their help with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible. They were the original samplists and recorded the source wavs of the X5DR, M1, K1R, and the JV2080.
+
+For a full list of credits, [please vist the credits doc here.](/diocs/Attribution.md)
 
 # LEGAL
 
