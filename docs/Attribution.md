@@ -26,10 +26,12 @@ I would like to thank the following recording engineers:
 * Alessandra Genovese
 * Michael Romay
 
-For their help with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible. 
+For their help with the sampling process. Without their help playing single notes at a time on these instruments, this pack would not have been possible.
 They were the original samplists and recorded the source wavs of the X5DR, M1, K1R, and the JV2080.
 
 ### Special Thanks
 
 * PCC Cascade Music & Sonic Arts Department
 * Don Thompson, Dan Pettis, & the PCC Cascade Recording Studio team
+* Simple Icons for usage of icons throughout md documentation
+* shields.io for custom md badges
