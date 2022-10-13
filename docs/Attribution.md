@@ -35,3 +35,4 @@ They were the original samplists and recorded the source wavs of the X5DR, M1, K
 * Don Thompson, Dan Pettis, & the PCC Cascade Recording Studio team
 * Simple Icons for usage of icons throughout md documentation
 * shields.io for custom md badges
+* b64.io for providing base64 encoding tools
