@@ -1,6 +1,6 @@
 # Open Samples
 
-[![Generic badge](https://img.shields.io/badge/Patch%20Number-v1.05-blueviolet)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Patch%20Number-v1.06-blueviolet)](https://shields.io/)
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
