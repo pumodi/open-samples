@@ -49,13 +49,13 @@ Alternatively, email Pumodi with what you'd like to include and he can sort out 
 ## Ways to Contribute
 
 * Sample Instruments or Sounds
-* Author Patch Files for various samplers 
+* Author Patch Files for various samplers
 * Convert files into Wavetable format
 * Create synth presets for us to sample on hardware or soft synths
 * Research & write history documents on instruments that we've sampled
 * Composer & Produce Demo Songs to exemplify the contents of a pack
 * Create artwork for us to use in Marketing or on instrument pages
-* Edit copy 
+* Edit copy
 * QA/QC instrument samples, patches, and prests
 
 ## Some quick sample requirements
@@ -121,15 +121,29 @@ For their help with the sampling process. Without their help playing single note
 For a full list of credits, [please vist the credits doc here.](/docs/Attribution.md)
 
 # LEGAL
+```
+OPEN SAMPLES PERMISSIVE USE PUBLIC LICENSE
+                    Version 1, October 2022
 
-NOTE: The license for this pack will be changing. After discussing with a Lawyer, this license has the potential to expose me (Jeff) to legal trouble. 
+ Copyright (C) 2022 Jeffrey Brice <jeff@jeffbricemusic.com>
 
-In general the terms for the library will be:
+License Brief: Open Samples is provided free of charge and royalty free for you to use in your music production or other audio production purposes. You agree to not resell the content of the library as is or repackaged into another retail product. This license is meant to be as permissive as possible while preventing individuals from profiting off the library in an unmodified state.
 
-1) Samples are distributed royalty free and free of charge. You may utilize the samples in any commercial or non-commercial application that involves sound playback.
-2) You are not to repackage the samples for sale on their own or as part of sampler instruments or sample packs.
-3) Music demos in the library are All Rights Reserved by their original composers.
-4) Open Samples is provided 'AS IS'. See the As Is clause in the MIT license for further info.
+            OPEN SAMPLES PERMISSIVE USE PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  1. SAMPLES, PATCHES, AND OTHER FILES WITH THE EXCEPTION OF MUSIC DEMOS (SEE CLAUSE 3) ARE DISTRIBUTED ROYALTY FREE AND FREE OF CHARGE. YOU MAY UTILIZE THE SAMPLES IN ANY COMMERCIAL OR NON-COMMERCIAL APPLICATION THAT INVOLVES MUSIC PRODUCTION, COMPOSITION, PERFORMANCE, OR OTHER PURPOSES THAT INVOLVE SOUND PLAYBACK.
+
+  2. CONTENT OF THE LIBRARY ARE NOT TO BE REPACKAGED FOR SALE ON THEIR OWN OR AS PART OF SAMPLER INSTRUMENTS, SAMPLE PACKS, OR FOR ANY OTHER SAMPLE BASED RETAIL PURPOSE.
+
+  2a. THE LIBRARY MAY BE REDSITRIBUTED AS IS IN A NON-COMMERCIAL FASHION.
+
+  3. MUSIC DEMOS PROVIDED IN THE LIBRARY ARE 'ALL RIGHTS RESERVED' BY THEIR RESPECTIVE COMPOSERS.
+
+  4. BY PROVIDING SAMPLES, PATCHES, OR OTHER FILES TO THE LIBRARY, COLLABORATORS ARE ASSIGNIGN OPEN SAMPLES A LICENSE TO DISTRIBUTE, COPY, AND MODIFY THE SUPPLIED CONTENT IN PERPETUITY, CONFORMING TO THE CLAUSES OUTLINED IN THIS LICENSE
+
+  5. OPEN SAMPLES AND ASSOCIATED FILES ARE PROVIDED 'AS IS'. WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE LIBRARY OR THE USE OR OTHER DEALINGS WITH THE LIBRARY.
+```
 
 Notices:
 If you end up using this pack, let me know! I'd love to hear what you make with it :)
