@@ -1,6 +1,6 @@
 # Open Samples
 
-[![Generic badge](https://img.shields.io/badge/Patch%20Number-v1.06-blueviolet)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Patch%20Number-v1.07-blueviolet)](https://shields.io/)
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
@@ -93,10 +93,9 @@ Alternatively, email Pumodi with what you'd like to include and he can sort out 
 
 # Latest Update
 
-### v1.06
-* Reorganized folder structures for a number of packs.
-* Added demo song for the X5DR ("Gemination") created by Tony Dickinson
-* Added demo song for the Hard Drive Music Box ("Memory Box") created by krzyis
+### v1.07
+* Merry Christmas 2022 everyone!
+* Added the Cardboard Whacker to percussion instruments. Sampled from a cardboard christmas wrapping paper tube.
 
 For the full changelog, [please go here](/docs/Changelog.md)
 

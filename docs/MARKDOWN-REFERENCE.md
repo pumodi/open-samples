@@ -1,7 +1,7 @@
 # Markdown Reference
 
 ## Badges
-Below are some badges that should be shown at the top of your markdwon for any instrument.
+Below are some badges that should be shown at the top of your markdown for any instrument.
 ### Working Indicators
 Use these badges to indicate a patch for a specific sampler is working.
 * Ableton ![Generic badge](https://img.shields.io/badge/-Working-blue?logo=abletonlive)

@@ -1,3 +1,7 @@
+### v1.07
+* Merry Christmas 2022 everyone!
+* Added the Cardboard Whacker to percussion instruments. Sampled from a cardboard christmas wrapping paper tube.
+
 ### v1.06
 * Reorganized folder structures for a number of packs.
 * Added demo song for the X5DR ("Gemination") created by Tony Dickinson
