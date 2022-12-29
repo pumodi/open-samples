@@ -1,0 +1,4 @@
+# Misc Folder
+
+This folder is intended to hold onto files/folders that don't have a home yet in the OSS.
+The folder is prepended with a period in order to hide it on most Operating Systems.
