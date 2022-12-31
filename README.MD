@@ -75,9 +75,9 @@ Alternatively, email Pumodi with what you'd like to include and he can sort out 
 | Roland SC-88                    	| Pre-Pro            	|               	|                    	|
 | Roland MKS-50 (Alpha Juno)      	| Sampling           	|               	| Jeffrey Brice      	|
 | Roland Super JX MKS-70          	| Pre-Pro            	|               	|                    	|
+| Roland U-220 + Sample Cards     	| Pre-Pro            	|               	|                    	|
 | Korg M1R                        	| Pre-Pro            	|               	|                    	|
 | Korg Wavestation A/D            	| Pre-Pro            	|               	|                    	|
-| Korg U-220 + Sample Cards       	| Pre-Pro            	|               	|                    	|
 | Kurzweill 1000PX                	| Pre-Pro            	|               	|                    	|
 | Yamaha DX7S                     	| Pre-Pro            	|               	|                    	|
 | Yamaha TX816 (4 ch)             	| Repairing Hardware 	|               	|                    	|
