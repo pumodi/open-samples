@@ -106,6 +106,8 @@ For the full changelog, [please go here](/docs/Changelog.md)
 * Jackson 'Xykrotik' Harris
 * Jeffrey Brice
 
+Contributors of specific content are listed in the Readme alongside their content.
+
 ### PCC Recording Engineers
 I would like to thank the following recording engineers:
 
