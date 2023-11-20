@@ -31,7 +31,7 @@ Sound Packs/Sample Packs - Refers to indiviual instruments or groups of instrume
 
 # Downloading the Pack
 
-To download the entire library in it's current release form, please visit this link on Dropbox - https://www.dropbox.com/sh/ap4na48qx1w5mbg/AADaLCRcWaJ40I1VsePlqzd9a?dl=0
+To download the entire library in it's current release form, please visit this link on Dropbox - https://www.dropbox.com/scl/fi/wsr7wquf76uoanr2in5sw/Open-Samples_v107.zip?rlkey=9akx88jupsacrllvn3ezpoa9a&dl=0
 
 We experimented with doing releases on Github but the cost for the development cost is too much for an open source and free distribution model. You can, however, clone the repository to get bleeding edge versions of the files. If you do decide to clone, please consider doing a shallow clone as a full clone takes quite some time. I would recommend this command:
 
