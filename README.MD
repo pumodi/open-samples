@@ -93,6 +93,8 @@ Alternatively, email Pumodi with what you'd like to include and he can sort out 
 
 # Latest Update
 
+The changelog is only updated during release updates. Otherwise, see the git commit history for a full history of changes.
+
 ### v1.07
 * Merry Christmas 2022 everyone!
 * Added the Cardboard Whacker to percussion instruments. Sampled from a cardboard christmas wrapping paper tube.
