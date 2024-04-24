@@ -8,3 +8,6 @@ dropbox-merge.bat
 
 # Local Archives #
 *.zip
+
+# Kontakt Script Processor#
+*.KSP
