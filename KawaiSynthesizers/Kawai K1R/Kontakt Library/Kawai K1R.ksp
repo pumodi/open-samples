@@ -1,0 +1,24 @@
+{
+  OPEN SOURCE SAMPLES - GROUP SELECTION SCRIPT
+
+  This script was made in order to provide an alternative to downloading each individual library patch for the corresponding instrument.
+  This script allows you to manually select which sample/patch you want to load and use by activating the selected group and purging the others.
+
+  Script created by Jackson "Xykrotik" Harris
+}
+
+on init
+	declare $count
+	declare ui_menu $sample_menu
+		
+	$count := 0
+	while ($count < $NUM_GROUPS)
+		add_menu_item($sample_menu, group_name($count) , $count)
+
+		inc($count)
+	end while
+end on
+
+on ui_control ($sample_menu)
+	$group := $NUM_GROUPS
+end on
