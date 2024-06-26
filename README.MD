@@ -1,6 +1,6 @@
 # Open Samples
 
-[![Generic badge](https://img.shields.io/badge/Patch%20Number-v1.07-blueviolet)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Patch%20Number-v1.08-blueviolet)](https://shields.io/)
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
@@ -95,9 +95,12 @@ Alternatively, email Pumodi with what you'd like to include and he can sort out 
 
 The changelog is only updated during release updates. Otherwise, see the git commit history for a full history of changes.
 
-### v1.07
-* Merry Christmas 2022 everyone!
-* Added the Cardboard Whacker to percussion instruments. Sampled from a cardboard christmas wrapping paper tube.
+### v1.08
+* Added a Yamaha Grand Piano
+* Added some Tubular Bells
+* Added a Wurlitzer 200a
+* Began converting JV1080 wavs to NKI's.
+* Moved some samples around and batch resaved for Marching Percussion and LoFi Piano.
 
 For the full changelog, [please go here](/docs/Changelog.md)
 
