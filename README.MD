@@ -3,8 +3,14 @@
 [![Generic badge](https://img.shields.io/badge/Patch%20Number-v1.08-blueviolet)](https://shields.io/)
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+# Download
+If you just want to download the pack right now, go here! https://www.dropbox.com/scl/fo/en9luu00sx7lxib0tz5a7/AFf_7TypGuKolljx3VP0HtM?rlkey=zuouxhghnlbyh72xmnvjs6hv4&st=e1d9fdkc&dl=0
 
-The Pumodi Sample Library started as a collection of samples from various hardware synthesizers of the 90's and late 80’s. Many of these sounds come from romplers or various wavetable rack mount synthesizers. These samples were created and provided free of charge to PCC students as a start to their own sample banks. As of 2022, we are reconfiguring it and releasing it as Open Samples, an open source sampling initiative.
+# Who We Are
+
+Welcome to Open Samples! We are a collective of samplists, musicians, and audio engineers dedicated to providing free and open source music samples to musicians around the world.
+
+Originally, this library started as the Portland Community College Sonic Arts sample library. It was a collection of samples from various hardware synthesizers and romplers of the 90's and late 80’s that were owned by the school. These samples were created and provided free of charge to PCC students as a start to their own sample banks. As of 2022, we are reconfiguring it and releasing it as Open Samples, an open source sampling initiative.
 
 As the years go by this sample pack will increase in size all the while remaining free or donation based. Open Samples, as an organization, will be sampling and releasing packs on our own as time permits. But the project itself is open for contribution if you have something you'd like to sample!
 
@@ -31,7 +37,7 @@ Sound Packs/Sample Packs - Refers to indiviual instruments or groups of instrume
 
 # Downloading the Pack
 
-To download the entire library in it's current release form, please visit this link on Dropbox - https://www.dropbox.com/scl/fi/wsr7wquf76uoanr2in5sw/Open-Samples_v107.zip?rlkey=9akx88jupsacrllvn3ezpoa9a&dl=0
+To download the entire library in it's current release form, please visit this link on Dropbox - https://www.dropbox.com/scl/fo/en9luu00sx7lxib0tz5a7/AFf_7TypGuKolljx3VP0HtM?rlkey=zuouxhghnlbyh72xmnvjs6hv4&st=e1d9fdkc&dl=0
 
 We experimented with doing releases on Github but the cost for the development cost is too much for an open source and free distribution model. You can, however, clone the repository to get bleeding edge versions of the files. If you do decide to clone, please consider doing a shallow clone as a full clone takes quite some time. I would recommend this command:
 
