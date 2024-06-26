@@ -1,3 +1,10 @@
+### v1.08
+* Added a Yamaha Grand Piano
+* Added some Tubular Bells
+* Added a Wurlitzer 200a
+* Began converting JV1080 wavs to NKI's.
+* Moved some samples around and batch resaved for Marching Percussion and LoFi Piano.
+
 ### v1.07
 * Merry Christmas 2022 everyone!
 * Added the Cardboard Whacker to percussion instruments. Sampled from a cardboard christmas wrapping paper tube.
