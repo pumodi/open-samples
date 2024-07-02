@@ -6,6 +6,7 @@
 * Jason Zaffary
 * Jackson 'Xykrotik' Harris
 * Jeffrey Brice
+* Avishai Karawan (Bansuri)
 
 ## Music Demo Contributors
 * krzyis
