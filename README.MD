@@ -132,6 +132,9 @@ For their help with the sampling process. Without their help playing single note
 
 For a full list of credits, [please vist the credits doc here.](/docs/Attribution.md)
 
+# Note on Donations
+Donations via the Ko-Fi link are sent to a personal account. Funds in that account are used to pay for github costs, demo tracks, storage space, etc.  If you find this useful, please consider donating. Never expected but always appreciated.
+
 # LEGAL
 ```
 OPEN SAMPLES PERMISSIVE USE PUBLIC LICENSE
