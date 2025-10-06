@@ -1,3 +1,6 @@
+### v1.081
+* Added Adufe samples from Artur Manuel de Oliveira Trincheiras.
+
 ### v1.08
 * Added a Yamaha Grand Piano
 * Added some Tubular Bells
