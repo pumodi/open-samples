@@ -7,6 +7,7 @@
 * Jackson 'Xykrotik' Harris
 * Jeffrey Brice
 * Avishai Karawan (Bansuri)
+* Artur Manuel de Oliveira Trincheiras.
 
 ## Music Demo Contributors
 * krzyis
