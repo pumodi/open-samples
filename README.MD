@@ -101,18 +101,15 @@ Alternatively, email Pumodi with what you'd like to include and he can sort out 
 
 The changelog is only updated during release updates. Otherwise, see the git commit history for a full history of changes.
 
-### v1.08
-* Added a Yamaha Grand Piano
-* Added some Tubular Bells
-* Added a Wurlitzer 200a
-* Began converting JV1080 wavs to NKI's.
-* Moved some samples around and batch resaved for Marching Percussion and LoFi Piano.
+### v1.081
+* Added Adufe samples from Artur Manuel de Oliveira Trincheiras.
 
 For the full changelog, [please go here](/docs/Changelog.md)
 
 
 ## Contributors and Special Thanks
 * Social Media Preview Artwork - Jamphibious
+* Artur Manuel de Oliveira Trincheiras
 * Jason Zaffary
 * Jackson 'Xykrotik' Harris
 * Jeffrey Brice
