@@ -135,9 +135,10 @@ Donations via the Ko-Fi link are sent to a personal account. Funds in that accou
 # LEGAL
 ```
 OPEN SAMPLES PERMISSIVE USE PUBLIC LICENSE
+                    Version 2, December 2025
                     Version 1, October 2022
 
- Copyright (C) 2022 Jeffrey Brice <jeff@jeffbricemusic.com>
+ Copyright (C) 2025 Jeffrey Brice <jeff@jeffbricemusic.com>
 
 License Brief: Open Samples is provided free of charge and royalty free for you to use in your music production or other audio production purposes. You agree to not resell the content of the library as is or repackaged into another retail product. This license is meant to be as permissive as possible while preventing individuals from profiting off the library in an unmodified state.
 
@@ -155,6 +156,10 @@ License Brief: Open Samples is provided free of charge and royalty free for you 
   4. BY PROVIDING SAMPLES, PATCHES, OR OTHER FILES TO THE LIBRARY, COLLABORATORS ARE ASSIGNIGN OPEN SAMPLES A LICENSE TO DISTRIBUTE, COPY, AND MODIFY THE SUPPLIED CONTENT IN PERPETUITY, CONFORMING TO THE CLAUSES OUTLINED IN THIS LICENSE
 
   5. OPEN SAMPLES AND ASSOCIATED FILES ARE PROVIDED 'AS IS'. WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE LIBRARY OR THE USE OR OTHER DEALINGS WITH THE LIBRARY.
+
+ARTIFICIAL INTELLIGENCE, GENERATIVE AI, AND LARGE LANGUAGE MODEL STATEMENT AND LICENSE EXCLUSIONS
+
+Opens Samples is against the training of models for Artifical Intelligence, Generative AI, and Large Lanugage Models using publicly available data. Because of this stance, no Artificial Intelligence team, group, developer, studio, company, enterprise, or otherwise may use any content from Open Samples or it's to derivatives to to train an AI, Generative AI, or LLM tool of their own or to support, market, or otherwise advocate for training of AI models, Generative AI, or LLM. Open Samples is not allowed to be used to train a Generative AI or Large Language model in any context, including but not restricted to artificial instrument generation, music track generating, or sound effect generation. 
 ```
 
 Notices:
